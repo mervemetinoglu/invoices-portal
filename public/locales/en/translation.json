@@ -1,0 +1,21 @@
+{
+  "language": "Language",
+  "tr": "Turkish",
+  "en": "English",
+  "username": "Username",
+  "password": "Password",
+  "login": "Login",
+  "id": "ID",
+  "docNo": "Document No",
+  "issueDate": "Issue Date",
+  "profile": "Profile",
+  "amount": "Amount",
+  "title": "Title",
+  "identifier": "Tax No",
+  "status": "Status",
+  "toastErrorMessage": "The username or password is incorrect!",
+  "datePicker": "Select Date",
+  "filter": "Filter",
+  "clear": "Clear",
+  "404Error": "Sorry, the page not found!"
+}

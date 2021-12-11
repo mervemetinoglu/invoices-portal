@@ -1,0 +1,21 @@
+{
+  "language": "Dil",
+  "tr": "Türkçe",
+  "en": "İngilizce",
+  "username": "Kullanıcı Adı",
+  "password": "Şifre",
+  "login": "Oturum Aç",
+  "id": "ID",
+  "docNo": "Belge No",
+  "issueDate": "Belge Tarihi",
+  "profile": "Senaryo",
+  "amount": "Tutar",
+  "title": "Ünvan",
+  "identifier": "VKN/TCKN",
+  "status": "Durum",
+  "toastErrorMessage": "Kullanıcı adı veya şifre hatalı!",
+  "datePicker": "Tarih Seç",
+  "filter": "Filtrele",
+  "clear": "Temizle",
+  "404Error": "Üzgünüz, aradığınız sayfa bulunamadı!"
+}
