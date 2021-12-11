@@ -1,0 +1,45 @@
+@import '../variables';
+@import '../breakpoints';
+
+.dropdown__container {
+  position: absolute;
+  width: 7rem;
+  top: 1rem;
+  right: 3rem;
+
+  @include sm {
+    right: 1rem;
+  }
+}
+
+.dropdown__btn {
+  color: map-get($colors, 'purple');
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  span {
+    margin-left: 0.2rem;
+  }
+}
+
+.dropdown__content {
+  margin-top: 0.4rem;
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 3px 12px #1e36482e;
+  border-radius: $border-radius;
+  overflow: hidden;
+  z-index: 505;
+}
+
+.dropdown__item {
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+
+  &:hover {
+    background: #f4f4f4;
+  }
+}
