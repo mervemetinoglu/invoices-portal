@@ -1,0 +1,15 @@
+@mixin btn {
+  width: 5rem;
+  padding: 0.4rem;
+  color: #fff;
+}
+
+@mixin background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #fff;
+  background-size: cover;
+  background-image: url('../assets/login-background.jpg');
+}
