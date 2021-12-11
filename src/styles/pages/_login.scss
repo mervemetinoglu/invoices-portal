@@ -1,0 +1,6 @@
+@import '../mixin';
+
+.container {
+ @include background;
+  flex-direction: column;
+}
