@@ -1,0 +1,65 @@
+@import '../breakpoints';
+@import '../variables';
+
+.table__wrapper {
+  width: 80%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto;
+  background-color: map-get($colors, 'table-bg');
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.281);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+td,
+th {
+  padding: 0.5rem;
+  color: #000;
+}
+
+td {
+  width: 100px;
+  overflow: hidden;
+}
+
+thead {
+  th {
+    background-color: map-get($colors, 'table-header-bg');
+    text-align: left;
+  }
+}
+
+tbody {
+  tr {
+    height: 20px;
+    &:hover {
+      background-color: map-get($colors, 'table-row-hover');
+    }
+  }
+  td {
+    font-size: 0.8rem;
+
+    button {
+      width: 3rem;
+      padding: 0.5rem 1rem;
+      color: #fff;
+      background-color: map-get($colors, 'primary-blue');
+    }
+  }
+}
+
+.pagination__wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
