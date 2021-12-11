@@ -1,0 +1,35 @@
+@import '../variables';
+@import '../mixin';
+
+.date_picker__wrapper {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  span {
+    margin-right: 1rem;
+  }
+}
+
+.react-datepicker-wrapper {
+  width: 13rem;
+  cursor: pointer;
+
+  input {
+    width: 10rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: 'Lato';
+  }
+}
+
+.datePicker__btn {
+  @include btn;
+  background-color: map-get($colors, 'primary-blue');
+
+  &-clear {
+    @include btn;
+    margin-left: 0.8rem;
+    background-color: map-get($colors, 'primary-red');
+  }
+}
