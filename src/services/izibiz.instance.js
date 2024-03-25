@@ -2,9 +2,8 @@ import axios from 'axios';
 import {getAuthToken} from '../helpers/authToken';
 
 const API = axios.create({
-  baseURL: 'https://apidev.izibiz.com.tr/v1',
+  baseURL: '',
   headers: {
-    'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
   },
 });
